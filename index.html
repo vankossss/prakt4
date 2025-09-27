@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карта статті</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="card">
+    <div class="card__image">
+      <img src="assets/images/blog_image.png" alt="Зображення статті">
+    </div>
+
+    <div class="card__content">
+      <h2 class="card__title">
+       Wayno — Це Можливість На Трильйон Доларів. Google Просто Необхідно Нею Скористатися
+      </h2>
+      <p class="card__text">
+        Підрозділ технологій автономного керування розширюється, але якщо Alphabet наполегливіше працюватиме, Waymo може домінувати на новому ринку з потенціалом генерувати більше доходів, ніж його рекламний бізнес
+      </p>
+
+      <div class="card__footer">
+        <div class="card__author" id="authorInfo">
+          <img src="assets/images/avatar_male.png" alt="Аватар">
+          <div>
+            <p class="author__name">Іван Жуков</p>
+            <p class="author__date">27 Вересня 2025</p>
+          </div>
+        </div>
+
+        <button class="share-btn" id="shareBtn">
+          <img src="assets/images/share_icon.png" alt="Поділитися">
+        </button>
+
+        <div class="share-menu" id="shareMenu">
+          <span class="share-text">Поділитися</span>
+          <a href="#"><img src="assets/images/icon_facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="assets/images/icon_x.png" alt="X"></a>
+          <a href="#"><img src="assets/images/icon_pinterest.png" alt="Pinterest"></a>
+
+          <button id="shareBtnInside" class="share-btn mobile-only">
+            <img src="assets/images/share_icon.png" alt="Закрити">
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
